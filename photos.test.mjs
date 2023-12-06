@@ -1,4 +1,4 @@
-const { combineFoldersAndAlbums } = require("./utils");
+import { combineFoldersAndAlbums } from "./utils.js";
 
 const folders = [
   { _id: "folder-id-1", year: "2023", folder_cover_photo: "cover-photo" },

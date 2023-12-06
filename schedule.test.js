@@ -1,4 +1,4 @@
-const { combineDaysAndGroups } = require("./utils");
+import { combineDaysAndGroups } from "./utils.js";
 const groups = [
   { _id: "group-id-1", group_name: "100-200" },
   { _id: "group-id-2", group_name: "300-400" },
